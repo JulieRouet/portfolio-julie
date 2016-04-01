@@ -110,6 +110,23 @@ header {
 /************GENERAL PROPRIERTY OF NAV BAR**************/
 
 /************fonts**************/
+ .nav {
+
+  display: flex;
+  flex-wrap : wrap;
+  justify-content: center;
+
+}
+.nav > li > a {
+    color: black;
+
+}
+
+.nav > li > a:hover,  .nav > li > a:focus{
+    color: #ff7aac;
+
+}
+
 
 
 li {
@@ -123,45 +140,10 @@ li {
 nav {
     min-height: 40px!important;
     border: none!important;
-}
-
-.navbar-default {
     background-color: #fff;
-    border-color: #fff;
-    display: block;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#fff));
-    margin-top: 3%;
 }
 
-ul.navbar-nav {
-    text-align: center;
-    float: none;
-}
 
-.navbar-nav > li {
-    display: inline-block;
-    float: none;
-}
-
-.navbar-nav > li > a{
-    padding: 10px;
-    color: #000!important;
-}
-
-.navbar-nav .open .dropdown-menu > li > a{
-    color: #000!important;
-}
-
-.dpactive > a,
-.dropdown-menu > li > a:hover,
-.navbar-default .navbar-nav > li > a:hover,
-.navbar-toggle:hover,
-.navbar-toggle:focus,
-.navbar-nav .open .dropdown-menu > li > a:hover,
-.navbar-nav > li.open > a:hover,
-.navbar-nav > li.open > a:focus {
-    background-color: white!important;
-}
     /**** NAV SM MD LG PROPRIETY ****/
 
 .unactive {
@@ -212,6 +194,8 @@ ul.navbar-nav {
 
 
 /************************* présentation *********************/
+
+
 .row {
   margin: 0!important;
 }
@@ -224,10 +208,10 @@ ul.navbar-nav {
   display: inline-block;
   height: 30%;
   margin-left: 10%;
-}
+}*/
 
 .one {
-  display: inline-block!important;
+    display: inline-block!important;
     height: 10%;
     margin-top: 7%;
     margin-left: 35%;
@@ -250,7 +234,7 @@ hr {
 
 p {
   font-family: 'Inconsolata';
-  font-size: 1.5em;
+  font-size: 1em;
 }
 
 /************************endprésentation *********************/
@@ -297,12 +281,17 @@ p {
 
 }
 
-.portfolio-item {
-    margin-bottom: 40px;
+.portfolio-item{
+  margin-bottom: 40px;
+}
+ .portfolio-item > img:hover {
+  background-color: : pink;
 }
 
+
+
 /* Rectangle Out */
-.hvr-rectangle-out {
+/*.hvr-rectangle-out {
 
   vertical-align: middle;
   -webkit-transform: translateZ(0);
@@ -337,12 +326,12 @@ p {
   transition-timing-function: ease-out;
 }
 .hvr-rectangle-out:hover, .hvr-rectangle-out:focus, .hvr-rectangle-out:active {
-  color: white;
+  color: pink;
 }
 .hvr-rectangle-out:hover:before, .hvr-rectangle-out:focus:before, .hvr-rectangle-out:active:before {
   -webkit-transform: scale(1);
   transform: scale(1);
-}
+}*/
 
 
 
@@ -365,7 +354,6 @@ p {
 }
 
 .hvr-pulse-grow {
-
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
@@ -375,7 +363,9 @@ p {
   -moz-osx-font-smoothing: grayscale;
 }
 
+
 .hvr-pulse-grow:hover {
+
   /*-webkit-animation-name: hvr-pulse-grow;*/
   animation-name: hvr-pulse-grow;
   /*-webkit-animation-duration: 0.3s;*/
@@ -427,11 +417,22 @@ p {
 
 
     @media screen and (max-width: 480px) {
+      .para {
+        width: 30%;
+      }
 
+.header {
+  height: 200px;
+}
 
+.nav {
+margin: auto;
+  width : 150px;
+  justify-content: center;
+  }
 
  p {
-    font-size: 1em;
+    font-size: 0.5em;
     }
 
 .julie {

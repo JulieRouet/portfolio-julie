@@ -29,7 +29,7 @@
         <!-- header - logo-->
     <header>
 
-      	<div id="header" class="container-fluid hidden-xs">
+      	<div id="header" class="container-fluid">
       		<ul id="scene" class="scene">
       			<li class="layer" data-depth="2.00"><img class="para" src=""></li>
       			<li class="layer" data-depth="0.00"><img class="para" src="img/logo.png"></li>
@@ -43,39 +43,24 @@
 
 
       <!-- Navigation -->
+      <ul class="nav">
 
-              <nav class="navbar navbar-default">
-                <div class="container-fluid">
-                  <!-- Brand and toggle get grouped for better mobile display -->
-                  <div class="navbar-header">
-                    <img id="Logo" class="hidden-sm hidden-md hidden-lg" src="img/logo.png" alt="Logo Julie Rouet"/>
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                      <span class="sr-only">Toggle navigation</span>
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
-                    </button>
-                  </div>
+        <li class="item"><a href="#header">HOME</a></li>
 
-                  <!-- Collect the nav links, forms, and other content for toggling -->
-                  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <li class="item"><a href="#presentation">PRESENTATION</a></li>
 
-                    <ul class="nav navbar-nav">
+        <li><a href="#video">VIDEO</a></li>
 
-                      <li class="active unactiveXs hidden-xs"><a href="#header">HOME</a><span class="sr-only"></span></li>
-
-                      <li class="active unactive hidden-xs"><a href="#presentation">PRESENTATION</a><span class="sr-only"></span></li>
-
-                      <li class="active unactive hidden-xs"><a href="#video">VIDEO</a><span class="sr-only"></span></li>
-
-                      <li class="active unactive hidden-xs"><a href="#portfolio">PORTFOLIO</a><span class="sr-only"></span></li>
-
-                    </li>
-                    <li class="active unactive hidden-xs"><a href="#contact">CONTACTEZ-MOI</a><span class="sr-only"></span></li>
+        <li><a href="#portfolio">PORTFOLIO</a></li>
 
 
-    <!-- /.navbar XS -->
-    <li class="dropdown active visible-xs">
+        <li><a href="#contact">CONTACTEZ-MOI</a></li>
+
+        </ul>
+
+
+    <!-- /.navbar XS  on verra si je la mettrai ou non mais j'essaye les flex box-->
+    <!-- <li class="dropdown active visible-xs">
               <a href="#header" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">HOME <span class="caret"></span></a>
               <ul class="dropdown-menu">
 
@@ -86,28 +71,26 @@
 
 
               </ul>
-    </li>
+    </li> -->
 
 
                   </div><!-- /.navbar-collapse -->
                 </div><!-- /.container-fluid -->
               </nav>
 
-              <img class="center-block img-responsive hidden-xs sousnav" src="/img/barre-sous-nav.png" alt="soulignement barre de nav">
+              <img class="center-block img-responsive hidden-xs sousnav" src="img/barre-sous-nav.png" alt="soulignement barre de nav">
 
       <!-- Navigation -->
-
-
 
       <!-- Présentation-->
       <div id="presentation" class="container-fluid">
       <div class="row presentation">
         <div class="col-xs-12  col-md-offset-3 col-md-3">
-          <img class="img-responsive julie" src="/img/julie.png" alt="photo de julie">
+          <img class="img-responsive julie" src="img/julie.png" alt="photo de julie">
         </div>
 
         <div class=" xswisth col-xs-12 text-align  col-md-3">
-          <img class="img-responsive one" src="/img/1.png" alt="1 en paillettes">
+          <img class="img-responsive one" src="img/1.png" alt="1 en paillettes">
           <hr>
           <h3>Présentation</h3>
           <p>Bonjour, je m’appelle Julie, je suis diplomée de graphisme et actuellement en formation de développeur web.
@@ -127,7 +110,7 @@
     <div class="row video">
       <div class =" xswisth col-xs-12 col-md-offset-1 col-md-2">
 
-        <img class="img-responsive two text-align" src="/img/2.png" alt="2 en paillettes">
+        <img class="img-responsive two text-align" src="img/2.png" alt="2 en paillettes">
     </div>
     </div>
 
@@ -142,8 +125,12 @@
 
       <div class="col-xs-12 text-align col-md-offset-1 col-md-1 cv">
 
-    <%= link_to image_tag("/img/touche-cv.png", :border => 0, :alt => 'recevoir pdf du cv', :title => 'touche-cv'), pdf_path, :class => 'img-responsive'%>
+
     </div>
+
+    <a  href="img/julie_rouet_cv.pdf" target="_blank">
+                       <img src="img/touche-cv.png"></a>
+
     </div>
     </div>
 
@@ -232,7 +219,7 @@
 
     <div id="contact-titre">
       <div class="row xswisth">
-    <img class="img-responsive col-md-offset-2 col-md-2 four" src="/img/4.png" alt="4">
+    <img class="img-responsive col-md-offset-2 col-md-2 four" src="img/4.png" alt="4">
       <img class="img-responsive col-md-offset-1 col-md-5 contactez" src="img/contactez-moi.png" alt="titre contactez-moi">
       </div>
     </div>
@@ -286,9 +273,9 @@
     <div class="footer container">
 
 
-    <img class="img-responsive reseauso" src="/img/fb.png" alt="lien facebook">
-    <img class="img-responsive reseauso " src="/img/in.png" alt="lien linkedin">
-    <img class="img-responsive reseauso" src="/img/guithub.png" alt="lien guithub">
+    <img class="img-responsive reseauso" src="img/fb.png" alt="lien facebook">
+    <img class="img-responsive reseauso " src="img/in.png" alt="lien linkedin">
+    <img class="img-responsive reseauso" src="img/guithub.png" alt="lien guithub">
     </div>
 
     <!-- footer-->
