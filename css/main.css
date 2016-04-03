@@ -245,7 +245,7 @@ p {
     display: inline-block!important;
     height: 10%;
     margin-left: 50%;
-    margin-top: 90%;
+    margin-top: 10%;
 }
 .cv {
   display: inline-block!important;
@@ -395,16 +395,15 @@ p {
 
 .four {
   display: inline-block!important;
-  height: 150px;
-  width:auto;
+  height: 70%;
+
   margin-top: 5%;
 }
 
 
 .contactez {
-
   display: inline-block!important;
-    padding-top: 5%;
+  padding-top: 5%;
      }
 
 .footer {
@@ -443,26 +442,65 @@ margin: auto;
     }
 
 .julie {
-      
-       width: 50%;
+
+       width: 30%;
        height: auto;
-       justify-content: center;
+       margin-left: auto;
+       margin-right: auto;
      }
 
-.xswidth {
+     .one {
+         display: inline-block!important;
+         width : 20%;
+         height: 10%;
+         margin-top: 7%;
+         margin-left: 40%;
 
-  margin: auto;
-  padding: 0;
-}
+
+     }
+
+     .two {
+         display: inline-block!important;
+         width : 40%;
+         height: 10%;
+         margin-top: 30%;
+         margin-left: 30%;
+
+
+     }
+
+     .button {
+       display: inline-block!important;
+       width: : 30%;
+
+     }
+
+
 
 
 .three {
-  display: flex;
-  justify-content: center;
-   margin-top: 70%;
-   height: 50px;
+  display: inline-block!important;
+  width : 40%;
+  height: 10%;
+  margin-top: 30%;
+  margin-left: 30%;
+
+
 }
 
+
+.four {
+  display: inline-block!important;
+  width : 40%;
+  height: 10%;
+  margin-top: 7%;
+
+
+}
+.contactez {
+  display: inline-block!important;
+
+     }
 
 
 
