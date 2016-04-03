@@ -253,6 +253,13 @@ p {
 
 }
 
+.button {
+  display: inline-block!important;
+  width: : 70%;
+
+}
+
+
 /******************************** vidéo ************************/
 
 /***************************** portfolio ***********************/
@@ -436,20 +443,27 @@ margin: auto;
     }
 
 .julie {
-      display: flex;
+      
        width: 50%;
        height: auto;
        justify-content: center;
      }
 
-.xswisth {
-display: flex;
-  margin: 0;
+.xswidth {
+
+  margin: auto;
   padding: 0;
-  display: flex ;
+}
+
+
+.three {
+  display: flex;
   justify-content: center;
-  width: 10%;
-  height: auto;
-        }
+   margin-top: 70%;
+   height: 50px;
+}
+
+
+
 
 }
