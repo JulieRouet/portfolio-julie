@@ -322,6 +322,8 @@ p {
 
 
 /***************************** medias queries ***********************/
+
+/***************************** medium ***********************/
 @media screen and (max-width: 992pxpx) {
   header {
       height: 800px;
@@ -365,7 +367,13 @@ p {
     height: 10%;
     margin-top: 7%;
 }
+
+.reseauso {
+    width: 60%;
 }
+}
+
+/***************************** small ***********************/
 
 @media screen and (max-width: 768px) {
     .para {
@@ -430,5 +438,9 @@ p {
         font-size: 1em;
         margin-top: 5%;
         margin-left: 20%;
+    }
+
+    .reseauso {
+        width: 70%;
     }
 }
