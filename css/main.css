@@ -118,27 +118,6 @@ li {
 }
 
 
-/*nav {
-    min-height: 40px!important;
-    border: none!important;
-    background-color: #fff;
-}
-*/
-
-
-/**** NAV SM MD LG PROPRIETY ****/
-
-.unactive {
-    padding: 10px;
-    background-color: white;
-    color: black;
-    cursor: default;
-}
-
-.MarginBottom {
-    margin-bottom: 8px;
-}
-
 
 /************NAV BAR**************/
 
@@ -349,8 +328,7 @@ p {
 @media screen and (max-width: 992px) {
     /**************header*************/
     header {
-
-        height: 300px;
+      height: 20px;
     }
 
     .para {
@@ -407,22 +385,54 @@ p {
 
 /***************************** small ***********************/
 
-@media screen and (max-width: 768px) {
+
     /**************header *************/
+    @media screen and (max-width: 768px) {
     .para {
         width: 100%;
         height: auto;
     }
     header {
-        margin-top: 90px;
-        height: 170px;
+        margin-top: 80px;
+        height: 300px;
     }
-    /**************nav *************/
-    .nav {
-        margin: auto;
-        width: 150px;
-        justify-content: center;
+  }
+    @media screen and (max-width: 650px) {
+    .para {
+        width: 100%;
+        height: auto;
     }
+    header {
+        margin-top: 80px;
+        height: 250px;
+    }
+
+    }
+    @media screen and (max-width: 550px) {
+    .para {
+        width: 100%;
+        height: auto;
+    }
+    header {
+        margin-top: 80px;
+        height: 200px;
+    }
+
+    }
+
+    @media screen and (max-width: 350px) {
+    .para {
+        width: 100%;
+        height: auto;
+    }
+    header {
+        margin-top: 70px;
+        height: 150px;
+    }
+
+    }
+    @media screen and (max-width: 768px) {
+
     /**************présentation *************/
     p {
         font-size: 1.5em;
