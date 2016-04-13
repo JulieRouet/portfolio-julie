@@ -32,8 +32,9 @@
 
         <div id="header" class="container-fluid">
             <ul id="scene" class="scene">
-                <li class="layer" data-depth="2.00"><img class="para" src=""></li>
-                <li class="layer" data-depth="0.00"><img class="para" src="img/logo.png"></li>
+                <!-- <li class="layer" data-depth="2.00"><img class="para" src=""></li> -->
+                <li class="layer" data-depth="0.10"><img class="para" src="img/feuilles1.png"></li>
+                <li class="layer" data-depth="0.00"><img id="logo" class="para" src="img/logo.png"></li>
                 <li class="layer" data-depth="0.50"><img class="para" src="img/feuilles1.png"></li>
                 <li class="layer" data-depth="0.00"><img class="para" src="img/feuilles2.png"></li>
                 <li class="layer" data-depth="2.00"><img class="para" src="img/perroquet.png"></li>
@@ -44,42 +45,79 @@
 
 
     <!-- Navigation -->
-    <ul class="nav">
+
+
+
+    <ul class="nav hidden-xs visible-sm visible-md visible-lg ">
 
         <li class="item"><a href="#header">HOME</a></li>
 
         <li class="item"><a href="#presentation">PRESENTATION</a></li>
 
-        <li><a href="#video">VIDEO</a></li>
+        <li class="item"><a href="#video">VIDEO</a></li>
 
-        <li><a href="#portfolio">PORTFOLIO</a></li>
+        <li class="item"><a href="#portfolio">PORTFOLIO</a></li>
 
 
-        <li><a href="#contact">CONTACTEZ-MOI</a></li>
+        <li class="item"><a href="#contact">CONTACTEZ-MOI</a></li>
 
     </ul>
 
 
-    <!-- /.navbar XS  on verra si je la mettrai ou non mais j'essaye les flex box-->
-    <!-- <li class="dropdown active visible-xs">
-              <a href="#header" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">HOME <span class="caret"></span></a>
-              <ul class="dropdown-menu">
 
-                <li><a href="#presentation">PRESENTATION</a></li>
-                <li><a href="#video">VIDEO</a></li>
-                <li><a href="#portfolio">PORTFOLIO</a></li>
-                <li><a href="#contact">CONTACTEZ-MOI</a></li>
+    <nav class="navbar navbar-default navbar-fixed-top hidden-sm hidden-md hidden-lg visible-xs">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-justified">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#header">HOME</a>
+                    </li>
+
+                    <li>
+                        <a class="page-scroll" href="#presentation">PRESENTATION</a>
+                    </li>
+
+                    <li>
+                        <a class="page-scroll" href="#video">VIDEO</a>
+                    </li>
+
+                    <li>
+                        <a class="page-scroll" href="#portfolio">PORTFOLIO</a>
+                    </li>
 
 
-              </ul>
-    </li> -->
+                    <li><a class="page-scroll" href="#contact">CONTACTEZ-MOI</a>
+                    </li>
 
 
-    </div>
-    <!-- /.navbar-collapse -->
-    </div>
-    <!-- /.container-fluid -->
+            </div>
+
+        </div>
+
     </nav>
+
+
+
+    <!-- Navigation -->
+
+
+
+
 
     <img class="center-block img-responsive sousnav" src="img/barre-sous-nav.png" alt="soulignement barre de nav">
 
@@ -100,21 +138,21 @@
                     <hr>
                     <h3>Présentation</h3>
                     <p>Bonjour, je m’appelle Julie, je suis diplomée de graphisme et actuellement en formation de développeur web. Je suis curieuse et pasionnée, tout m’interesse et ma soif d’apprendre est insatiable. J’aime la vie, j’aime tester de nouvelles
-                    choses et je suis toujours partante pour de nouveaux défis. Je vous laisse me dévouvrir plus amplement en parcourant ce site internet. N’hésitez pas à télécharger mon cv si mon profile vous interesse. Bonne visite !</p>
+                        choses et je suis toujours partante pour de nouveaux défis. Je vous laisse me dévouvrir plus amplement en parcourant ce site internet. N’hésitez pas à télécharger mon cv si mon profil vous interesse. Bonne visite !</p>
                 </div>
-              </div>
+            </div>
 
-              <div class=" hidden-sm hidden-md hidden-lg col-xs-12 col-xs-10  col-md-3 col-md-offset-0">
-                  <div class="row">
-                      <img class="img-responsive  col-xs-offset-4 col-xs-4 one" src="img/1.png" alt="1 en paillettes">
-                  </div>
-              <div class="row ">
-                 <hr>
-                 <h3>Présentation</h3>
-                 <p>Bonjour, je m’appelle Julie, je suis diplomée de graphisme et actuellement en formation de développeur web. Je suis curieuse et pasionnée, tout m’interesse et ma soif d’apprendre est insatiable. J’aime la vie, j’aime tester de nouvelles
-                 choses et je suis toujours partante pour de nouveaux défis. Je vous laisse me dévouvrir plus amplement en parcourant ce site internet. N’hésitez pas à télécharger mon cv si mon profile vous interesse. Bonne visite !</p>
-             </div>
-           </div>
+            <div class=" hidden-sm hidden-md hidden-lg col-xs-12 col-xs-10  col-md-3 col-md-offset-0">
+                <div class="row">
+                    <img class="img-responsive  col-xs-offset-4 col-xs-4 one" src="img/1.png" alt="1 en paillettes">
+                </div>
+                <div class="row ">
+                    <hr>
+                    <h3>Présentation</h3>
+                    <p>Bonjour, je m’appelle Julie, je suis diplomée de graphisme et actuellement en formation de développeur web. Je suis curieuse et pasionnée, tout m’interesse et ma soif d’apprendre est insatiable. J’aime la vie, j’aime tester de nouvelles
+                        choses et je suis toujours partante pour de nouveaux défis. Je vous laisse me dévouvrir plus amplement en parcourant ce site internet. N’hésitez pas à télécharger mon cv si mon profil vous interesse. Bonne visite !</p>
+                </div>
+            </div>
 
 
 
@@ -138,7 +176,7 @@
                 <hr>
                 <h3>Vidéo</h3>
                 <p>J’aime particulièrement dessiner. Ce qui me touche en général et qui m’inspire c’est l’humanité. J’apprécie ce qui n’est pas parfait. J’aime le figuratif mais que lorsqu’il n’est pas empreint de mimésis. Ce qui m’interesse c’est l’interprétation,
-                    j’aime les représentations déformées et subjctives où l’on ressent l’homme et ses imperfections plutôt que la technicité irréprochable qui me fait penser aux productions de machines. Voici un petit CV dessin-animé qui vous permettra
+                    j’aime les représentations déformées et subjectives où l’on ressent l’homme et ses imperfections plutôt que la technicité irréprochable qui me fait penser aux productions de machines. Voici un petit CV dessin-animé qui vous permettra
                     peut-etre de mieux appréhender mon univers et découvrir ma personnalité.</p>
             </div>
 
@@ -149,103 +187,103 @@
 
             </div>
 
-</div>
+        </div>
+    </div>
+
+
+    <!-- vidéo-->
+
+    <!-- portfolio-->
+    <div id="portfolio" class="container-fluid">
+        <div class="row portfolio">
+            <div class="col-xs-offset-3 col-xs-6 col-md-offset-5 col-md-2">
+                <img class="img-responsive three" src="img/3.png" alt="3 en paillettes">
+            </div>
+        </div>
+
+        <div class="row text_portfolio">
+            <div class="col-xs-12 col-sm-offset-3 col-sm-6  col-md-offset-4 col-md-3">
+                <hr>
+                <h3>Portfolio</h3>
+                <p>Voici les travaux que j’ai pu réaliser au cours de ma scolarité, de mes stages, ainsi que mes projets personnels. Ils se composent de créations graphiques mais également de réalisations pour le web avec du développement front et backend.</p>
+            </div>
         </div>
 
 
-        <!-- vidéo-->
-
-        <!-- portfolio-->
-        <div id="portfolio" class="container-fluid">
-            <div class="row portfolio">
-                <div class="col-xs-offset-3 col-xs-6 col-md-offset-5 col-md-2">
-                    <img class="img-responsive three" src="img/3.png" alt="3 en paillettes">
-                </div>
-            </div>
-
-            <div class="row text_portfolio">
-                <div class="col-xs-12 col-sm-offset-3 col-sm-6  col-md-offset-4 col-md-3">
-                    <hr>
-                    <h3>Portfolio</h3>
-                    <p>Voici les travaux que j’ai pu réaliser au cours de ma scolarité, de mes stages, ainsi que mes projets personnels. Ils se composent de créations graphiques mais également de réalisations pour le web avec du développement front et backend.</p>
-                </div>
-            </div>
 
 
-
-
-            <!-- Projects Row -->
-            <div class="container-fluid">
-                <div class="row">
-                    <div class=" col-md-3 portfolio-item">
-
-                        <a href="#">
-                            <img class="img-responsive hvr-pulse-grow hvr-rectangle-out" src="img/la_biche_et_le_renard.png" alt="accéder au site la biche te le renard">
-                        </a>
-                    </div>
-                    <div class="xs-12 col-md-3  portfolio-item">
-                        <a href="http://julierouet.github.io/the-free-heads">
-                            <img class="img-responsive hvr-pulse-grow" src="img/the_free_heads.png" alt="accéder au site the free heads">
-                        </a>
-                    </div>
-                    <div class="col-md-3 portfolio-item">
-                        <a href="#">
-                            <img class="img-responsive hvr-pulse-grow" src="img/prunier_site.png" alt="accéder au site prunier">
-                        </a>
-                    </div>
-                    <div class="col-md-3 portfolio-item hvr-pulse-grow">
-                        <a href="#">
-                            <img class="img-responsive" src="img/courgette.png" alt="accéder au site Courgette">
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-
-            <!-- /.row -->
-
-            <!-- Projects Row -->
+        <!-- Projects Row -->
+        <div class="container-fluid">
             <div class="row">
-                <div class="xs-12 col-md-3 portfolio-item">
-                    <a href="http://julierouet.github.io/looser" target="_blank">
-                        <img class="img-responsive hvr-pulse-grow" src="img/looser_site.png" alt="accéder au site Looser">
+                <div class=" col-md-3 portfolio-item">
+
+                    <a href="#">
+                        <img class="img-responsive hvr-pulse-grow hvr-rectangle-out" src="img/la_biche_et_le_renard.png" alt="accéder au site la biche te le renard">
+                    </a>
+                </div>
+                <div class="xs-12 col-md-3  portfolio-item">
+                    <a href="http://julierouet.github.io/the-free-heads">
+                        <img class="img-responsive hvr-pulse-grow" src="img/the_free_heads.png" alt="accéder au site the free heads">
                     </a>
                 </div>
                 <div class="col-md-3 portfolio-item">
-                    <a href="https://issuu.com/julierouet/docs/booka4-750g" target="_blank">
-                        <img class="img-responsive hvr-pulse-grow" src="img/750g_book.png" alt="accéder au book 750gr">
+                    <a href="#">
+                        <img class="img-responsive hvr-pulse-grow" src="img/prunier_site.png" alt="accéder au site prunier">
                     </a>
                 </div>
-                <div class="col-md-3 portfolio-item">
-                    <a href="https://issuu.com/julierouet/docs/bookillustrations" target="_blank">
-                        <img class="img-responsive hvr-pulse-grow" src="img/illustrations_book.png" alt="accéder au book illustrations">
-                    </a>
-                </div>
-                <div class="col-md-3 portfolio-item">
-                    <a href="https://issuu.com/julierouet/docs/bookenligneit__com " target="_blank">
-                        <img class="img-responsive hvr-pulse-grow" src="img/itecom_book.png" alt="accéder au book Itecom">
+                <div class="col-md-3 portfolio-item hvr-pulse-grow">
+                    <a href="#">
+                        <img class="img-responsive" src="img/courgette.png" alt="accéder au site Courgette">
                     </a>
                 </div>
             </div>
         </div>
+
+
         <!-- /.row -->
 
-
-        <!-- portfolio-->
-
-        <!-- contactez-moi-->
-
-
-        <div id="contact-titre">
-            <div class="row">
-                <img class="img-responsive col-xs-offset-1 col-xs-2 col-md-offset-2 col-md-2 four" src="img/4.png" alt="4">
-                <div class="contactez col-xs-offset-0 col-xs-8 col-md-offset-1 col-md-5 "><img class="img-responsive " src="img/contactez-moi.png" alt="titre contactez-moi">
-                    <div class="row col-xs-12 col-md-offset-2 col-md-2"></div>
-                    <p id="admail"> rouetjulie.lille@gmail.com </p>
-                </div>
+        <!-- Projects Row -->
+        <div class="row">
+            <div class="xs-12 col-md-3 portfolio-item">
+                <a href="http://julierouet.github.io/looser" target="_blank">
+                    <img class="img-responsive hvr-pulse-grow" src="img/looser_site.png" alt="accéder au site Looser">
+                </a>
             </div>
-
+            <div class="col-md-3 portfolio-item">
+                <a href="https://issuu.com/julierouet/docs/booka4-750g" target="_blank">
+                    <img class="img-responsive hvr-pulse-grow" src="img/750g_book.png" alt="accéder au book 750gr">
+                </a>
+            </div>
+            <div class="col-md-3 portfolio-item">
+                <a href="https://issuu.com/julierouet/docs/bookillustrations" target="_blank">
+                    <img class="img-responsive hvr-pulse-grow" src="img/illustrations_book.png" alt="accéder au book illustrations">
+                </a>
+            </div>
+            <div class="col-md-3 portfolio-item">
+                <a href="https://issuu.com/julierouet/docs/bookenligneit__com " target="_blank">
+                    <img class="img-responsive hvr-pulse-grow" src="img/itecom_book.png" alt="accéder au book Itecom">
+                </a>
+            </div>
         </div>
+    </div>
+    <!-- /.row -->
+
+
+    <!-- portfolio-->
+
+    <!-- contactez-moi-->
+
+
+    <div id="contact-titre">
+        <div class="row">
+            <img class="img-responsive col-xs-offset-1 col-xs-2 col-md-offset-2 col-md-2 four" src="img/4.png" alt="4">
+            <div class="contactez col-xs-offset-0 col-xs-8 col-md-offset-1 col-md-5 "><img class="img-responsive " src="img/contactez-moi.png" alt="titre contactez-moi">
+                <div class="row col-xs-12 col-md-offset-2 col-md-2"></div>
+                <p id="admail"> rouetjulie.lille@gmail.com </p>
+            </div>
+        </div>
+
+    </div>
 
 
 
@@ -258,13 +296,13 @@
     <div class="footer container">
 
         <a href="https://fr.linkedin.com/in/julie-rouet-92a7b5a8" target="_blank">
-        <img class="img-responsive reseauso" src="img/fb.png" alt="lien facebook"></a>
+            <img class="img-responsive reseauso" src="img/fb.png" alt="lien facebook"></a>
 
         <a href="https://fr.linkedin.com/in/julie-rouet-92a7b5a8" target="_blank">
-        <img class="img-responsive reseauso " src="img/in.png"></a>
+            <img class="img-responsive reseauso " src="img/in.png"></a>
 
         <a href="https://github.com/JulieRouet" target="_blank">
-        <img class="img-responsive reseauso" src="img/guithub.png" alt="lien pour github"></a>
+            <img class="img-responsive reseauso" src="img/guithub.png" alt="lien pour github"></a>
 
     </div>
 
@@ -288,8 +326,15 @@
     <script>
         window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')
     </script>
+
+    <script src="js/agency.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script>
+
+    <script src="js/clean-blog.min.js"></script>
+
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
 

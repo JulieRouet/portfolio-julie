@@ -6378,7 +6378,7 @@ button.close {
 .visible-sm,
 .visible-md,
 .visible-lg {
-  display: none !important;
+  display: none;
 }
 .visible-xs-block,
 .visible-xs-inline,
@@ -6426,7 +6426,7 @@ button.close {
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .visible-sm {
-    display: block !important;
+    display: block ;
   }
   table.visible-sm {
     display: table;
@@ -6456,7 +6456,7 @@ button.close {
 }
 @media (min-width: 992px) and (max-width: 1199px) {
   .visible-md {
-    display: block !important;
+    display: block;
   }
   table.visible-md {
     display: table;
@@ -6486,7 +6486,7 @@ button.close {
 }
 @media (min-width: 1200px) {
   .visible-lg {
-    display: block !important;
+    display: block;
   }
   table.visible-lg {
     display: table;
