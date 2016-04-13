@@ -90,10 +90,21 @@ header {
 }
 
 .layer:nth-child(6) {
-    opacity: 0.90;
+    opacity: 0.85;
 }
 
-.layer:nth-child(6) button {}
+.layer:nth-child(6) button {
+  -webkit-transform: rotate(20deg);s
+}
+
+
+.layer:nth-child(7) {
+      opacity: 0.90;
+  }
+
+  .layer:nth-child(7) button {
+    -webkit-transform: rotate(60deg);
+  }
 
 
 /************GENERAL PROPRIERTY OF NAV BAR**************/
