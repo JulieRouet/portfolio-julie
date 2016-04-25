@@ -269,55 +269,20 @@ p {
      filter: alpha(opacity=30);
 }
 
-/*
-span.text-content {
-  opacity: 1;
-
-  cursor: pointer;
-  display: table;
-  height: 150px;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 150px;
-
-
-}
-
-span.text-content span {
-  display: table-cell;
-  text-align: center;
-  vertical-align: middle;
-    opacity: 1;
-}
-
-span.text-content {
-
-
-  cursor: pointer;
-  display: table;
-  height: 150px;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 150px;
-  opacity: 0;
-}*/
 
 
 .portfolio-item span{
+
   color: rgba(255, 255, 255, 0);
   text-align: center;
   font-family: 'Abril Fatface', sans-serif, arial;
   font-size: 1.5em;
   vertical-align: middle;
   text-align: center;
-
   width: 150px;
   left: 10;
   position:absolute;
   margin-top: 40px;
-
   top:0;
 
 
@@ -331,6 +296,7 @@ text-decoration: none;
 
 }
 .portfolio-item:hover span{
+
   color: rgba(255, 122, 172, 1);
   vertical-align: middle;
 
