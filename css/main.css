@@ -376,13 +376,14 @@ text-decoration: none;
 
 .four {
     display: inline-block!important;
-    height: 70%;
-    margin-top: 5%;
+    height: 30%;
+
 }
 
 .contactez {
     display: inline-block!important;
-    padding-top: 5%;
+    
+    height: 20%;
 }
 
 #admail {
@@ -404,7 +405,7 @@ text-decoration: none;
 
 
 /***************************** medias queries ***********************/
-@media screen and (max-width: 1199px)
+
 
 /***************************** SM***********************/
 
