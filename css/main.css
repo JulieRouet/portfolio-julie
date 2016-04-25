@@ -190,7 +190,7 @@ li {
 
 h3 {
     text-align: center;
-    font-family: 'Abril Fatface';
+    font-family: 'Abril Fatface'!important;
 }
 
 hr {
@@ -248,7 +248,7 @@ p {
 }
 
 .container {
-    margin-top: 7%;
+
 }
 
 .portfolio-item {
@@ -466,7 +466,13 @@ text-decoration: none;
 
 
 /***************************** small ***********************/
+.navbar-toggle {
+  background-color: rgba(255, 122, 172, 1)!important;
+}
+.navbar-toggle .icon-bar {
 
+  background-color: #fff;
+}
 
     /**************header *************/
     @media screen and (max-width: 768px) {
@@ -475,17 +481,32 @@ text-decoration: none;
         height: auto;
     }
     header {
-        margin-top: 80px;
         height: 400px;
     }
-  }
+
+  .nav-petite {
+      background-color: white;
+      display: inline-block!important;
+      list-style: none;
+      text-decoration: none;
+        }
+
+      .nav-petite > li > a {
+          color: black;
+      }
+
+      .nav-petite > li > a:hover, .nav-petite > li > a:focus {
+          color: #ff7aac;
+            }
+            }
+
     @media screen and (max-width: 650px) {
     .para {
         width: 100%;
         height: auto;
     }
     header {
-        margin-top: 80px;
+
         height: 300px;
     }
 
@@ -496,7 +517,7 @@ text-decoration: none;
         height: auto;
     }
     header {
-        margin-top: 80px;
+
         height: 200px;
     }
 
@@ -508,7 +529,7 @@ text-decoration: none;
         height: auto;
     }
     header {
-        margin-top: 70px;
+
         height: 150px;
     }
 
